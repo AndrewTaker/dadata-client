@@ -22,6 +22,7 @@ const availableTags = [
 	{ tag: 'инн', label: 'data.inn' },
 	{ tag: 'кпп', label: 'data.kpp' },
 	{ tag: 'адрес', label: 'data.address.unrestricted_value' },
+    { tag: 'руководитель', label: 'data.management.name' },
 ];
 
 const selectedTags = ref<string[]>(['полное наименование', 'инн']);
